@@ -1,6 +1,5 @@
 package types
 
-type CommandFunction struct {
-	Inputs []Field
-	Impl   func(inputs map[string]string) (Mutation, error)
-}
+import "io/fs"
+
+type CommandFunction func(state fs.FS, inputs map[string]string) (Mutation, error)
