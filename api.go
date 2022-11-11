@@ -1,6 +1,6 @@
 package types
 
 type API struct {
-	Commands map[string]Command
+	Commands map[string]CommandFunction
 	Queries  map[string]Query
 }
