@@ -1,6 +1,6 @@
 package types
 
-type Query struct {
+type QueryFunction struct {
 	Inputs []Field
 	Impl   func(inputs map[string]string) (any, error)
 }
