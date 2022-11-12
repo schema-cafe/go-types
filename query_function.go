@@ -1,6 +1,5 @@
 package types
 
-type QueryFunction struct {
-	Inputs []Field
-	Impl   func(inputs map[string]string) (any, error)
-}
+import "io/fs"
+
+type QueryFunction func(state fs.ReadDirFS, inputs map[string]string) (any, error)
