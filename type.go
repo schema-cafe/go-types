@@ -1,6 +1,8 @@
 package types
 
 type Type struct {
-	IsCollection bool
-	BaseType     Identifier
+	IsArray   bool
+	IsMap     bool
+	IsPointer bool
+	BaseType  Identifier
 }
