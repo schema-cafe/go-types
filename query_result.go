@@ -1,6 +1,6 @@
 package types
 
 type QueryResult struct {
-	Result any
-	Error  error
+	Result any   `json:"result"`
+	Error  error `json:"error"`
 }

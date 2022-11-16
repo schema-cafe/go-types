@@ -1,6 +1,6 @@
 package types
 
 type CommandResult struct {
-	Mutation Mutation
-	Error    error
+	Mutation Mutation `json:"mutation"`
+	Error    error    `json:"error"`
 }
