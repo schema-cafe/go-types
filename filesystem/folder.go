@@ -1,5 +1,5 @@
 package filesystem
 
 type Folder struct {
-	Contents []FolderItem
+	Contents []FolderItem `json:"contents"`
 }

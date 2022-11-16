@@ -1,7 +1,7 @@
 package filesystem
 
 type Node[T any] struct {
-	IsFolder bool
-	Folder   Folder
-	Value    *T
+	IsFolder bool   `json:"isFolder"`
+	Folder   Folder `json:"folder"`
+	Value    *T     `json:"value"`
 }

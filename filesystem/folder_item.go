@@ -1,6 +1,6 @@
 package filesystem
 
 type FolderItem struct {
-	Name     string
-	IsFolder bool
+	Name     string `json:"name"`
+	IsFolder bool   `json:"isFolder"`
 }
