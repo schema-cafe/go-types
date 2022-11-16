@@ -1,6 +1,6 @@
 package types
 
 type Identifier struct {
-	Pkg  string
-	Name string
+	Path string `json:"path"`
+	Name string `json:"name"`
 }
