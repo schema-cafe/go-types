@@ -1,6 +1,6 @@
 package types
 
 type Mutation struct {
-	Sets    map[string][]byte
+	Sets    map[string]string
 	Deletes []string
 }
