@@ -1,8 +1,8 @@
 package types
 
 type Type struct {
-	IsArray   bool
-	IsMap     bool
-	IsPointer bool
-	BaseType  Identifier
+	IsArray   bool       `json:"isArray"`
+	IsMap     bool       `json:"isMap"`
+	IsPointer bool       `json:"isPointer"`
+	BaseType  Identifier `json:"baseType"`
 }
