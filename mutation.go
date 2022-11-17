@@ -1,6 +1,6 @@
 package types
 
 type Mutation struct {
-	Path     string
-	Contents string
+	Path     string `json:"path"`
+	Contents string `json:"contents"`
 }
