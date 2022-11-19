@@ -1,4 +1,4 @@
-package types
+package ast
 
 type Type struct {
 	IsArray   bool       `json:"isArray"`

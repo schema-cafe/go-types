@@ -1,4 +1,4 @@
-package types
+package ast
 
 type Identifier struct {
 	Path string `json:"path"`
